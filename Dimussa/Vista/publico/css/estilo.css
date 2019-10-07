@@ -1,0 +1,172 @@
+  body{
+  background: url(../media/img/fondo.jpg);
+  background-size: cover;
+  padding: 0px;
+  position: relative;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  }
+
+
+h3{
+	font-size: 38px;
+	color: black;
+	font-style: normal;
+	text-align: center;
+}
+.p{
+	color: black;
+	font-style: normal;
+	font-size:24px; 
+	text-align: justify;
+	margin-left: 13px;
+	margin-right: 15px;
+}
+span{
+	color: red;
+}
+
+nav{
+	background-color: #2E4053;
+
+}
+.img{
+	display: block;
+	margin: auto;
+	width: 100px;
+}
+.logo{
+	margin-left: 2em;
+	float:right;
+	display: block;
+	width: 400px;
+	height: 400px;
+}
+
+.h1{
+	color: white;
+}
+/*Maquina de escribir*/
+
+.contenedor .form .form-header .form-title {
+	font-weight: normal;
+	font-family: sans-serif;
+	color:blue;
+	text-align: center;
+	padding: 14px 0;
+
+
+
+}
+.contenedor .form {
+	background:rgba(0,0,0,.6);
+	width:900px;
+	margin: auto;
+	max-width:500px;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+ .contenedor .form .form-input, .form-textarea{
+	 background: rgba(0,0,0,.7);
+	 border: none;
+	 outline: none;
+	 width:100%;
+	 border-bottom: 2px solid blue;
+	 padding:12px;
+	 margin-bottom: 20px;
+	 border-radius: 10px;
+	 font-size: 14px;
+	 color:white;
+	 font-family:roboto;
+
+}
+
+.contenedor .form .form-textrarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.contenedor .form .btn-submit{
+	width: 100%;
+	font-family: roboto;
+	outline: none;
+	background: blue;
+	font-size:16px;
+	border: none;
+	color: #fff;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .10s ease;
+
+}
+.contenedor .form .btn-submit:hover {
+	background:#2E4053;
+}
+
+.carousel.slide{
+	text-align: center;
+}
+.articulo{
+ 	width: 90%;
+ 	max-width: 100%;
+ 	padding:60px;
+ 	color: #000;	
+ }
+ .articulo .title-h1{
+ 	color: #000;
+ }
+
+.container{
+	margin: auto;
+	display: table;
+	color: white;
+}
+.letra{
+	float: left;
+	color: white;
+	position: relative;
+}
+.letra span{
+	position: absolute;
+	right: 0;
+	width: 0;
+	background:#2E4053 ;
+	border-left: 1px solid #000;
+
+	animation: maquina 2s infinite alternate steps(9);
+}
+@keyframes maquina{
+	from {
+		width: 100%;
+	}
+	to{
+		width: 0;
+	}
+}
+ footer{
+ 	background:#000;
+ 	color: #fff;
+ }
+ 
+ .Micontainer {
+ margin-left: 20px;
+ margin-right: 20px;
+
+
+ }
+
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+}
